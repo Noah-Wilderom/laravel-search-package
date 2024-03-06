@@ -1,0 +1,34 @@
+{
+  "name": "noahwilderom/laravel-search-package",
+  "type": "library",
+  "description": "",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "NoahWilderom\\SearchPackage\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Noah Wilderom",
+      "email": "wilderomnoah@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "illuminate/support": "^10.0",
+    "guzzlehttp/guzzle": "^7.8",
+    "laravel/prompts": "^0.1.16"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.0",
+    "laravel/framework": "^10.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "NoahWilderom\\SearchPackage\\SearchPackageServiceProvider"
+      ]
+    }
+  }
+}
